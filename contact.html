@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — BuyHive</title>
+  <!-- Include Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-container">
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="icon" onclick="toggleNav()">&#9776;</a>
+      </div>
+    </header>
+
+    <main class="content">
+      <h1>Contact Us</h1>
+
+      <form>
+        <label>Name</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email</label><br>
+        <input type="email" required><br><br>
+
+        <label>Message</label><br>
+        <textarea required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <address>
+        <p>Email: buyhivegh@mail.com</p>
+        <p>Phone: +233 545627847</p>
+        <p>Location: Accra, Ghana</p>
+      </address>
+
+      <!-- Social media icons/links -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/YourPage" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/YourProfile" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://twitter.com/YourProfile" target="_blank" class="fa fa-twitter"></a>
+        <a href="mailto:buyhivegh@mail.com" class="fa fa-envelope"></a>
+      </div>
+
+    </main>
+
+    <footer>
+      <p>© 2025 BuyHive</p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleNav() {
+      const x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+</html>

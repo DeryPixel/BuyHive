@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - BuyHive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html" class="active">About</a>
+  <a href="services.html">Services</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+</div>
+
+<main class="content">
+
+  <section class="about-hero">
+    <div class="hero-text">
+      <h1>About BuyHive</h1>
+      <p>At BuyHive, we are dedicated to bringing you the best in women’s fashion and accessories. Whether you're looking for a stylish handbag or a chic dress, we have it all!</p>
+    </div>
+    <div class="hero-image">
+      <img src="buyhive.png" alt="Women Fashion" />
+    </div>
+  </section>
+
+  <section class="mission-section">
+    <h2>Our Mission</h2>
+    <ul>
+      <li>Provide the best quality products for women.</li>
+      <li>Ensure a smooth shopping experience with fast delivery.</li>
+      <li>Build lasting relationships with our customers based on trust and satisfaction.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 BuyHive</p>
+</footer>
+
+<script>
+function toggleNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>

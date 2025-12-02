@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - BuyHive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html" class="active">Services</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
+</div>
+
+<main>
+    <h1>Our Services</h1>
+    <p>We offer a variety of services to make your shopping experience more enjoyable:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fast Delivery</td>
+                <td>Get your products delivered within 2-5 business days.</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Gift Wrapping</td>
+                <td>We offer premium gift wrapping for your purchases.</td>
+                <td>$5.00</td>
+            </tr>
+            <tr>
+                <td>Custom Orders</td>
+                <td>Personalized products designed to your taste.</td>
+                <td>Varies</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <p>&copy; 2025 BuyHive</p>
+</footer>
+
+<script>
+function toggleNav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
